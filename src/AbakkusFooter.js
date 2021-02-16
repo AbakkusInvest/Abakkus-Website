@@ -42,7 +42,8 @@ class AbakkusFooter extends Component {
 					LLP - Copyright © 2021 Abakkus Asset Manager LLP | All Rights Reserved
 					<br />
 					<a href="/termsandconditions">Terms and Conditions</a> |
-					<a href="/privacy"> Privacy Policy</a>
+					<a href="/privacy"> Privacy Policy</a> |
+					<a href="/disclosure"> Disclosures</a>
 				</Container>
 			</Footer>
 		);
