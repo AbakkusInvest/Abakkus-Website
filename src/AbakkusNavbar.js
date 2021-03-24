@@ -67,7 +67,7 @@ class AbakkusNavbar extends Component {
                                     Abakkus All Cap Approach
                                 </Navbar.Item>
                                 <Navbar.Item href="/product/pms/abakkus_emerging_opportunities_fund_I">
-                                    Abakkus Emerging Opportunities Fund - I 
+                                    Abakkus Emerging Opportunities Approach 
                                 </Navbar.Item>
                             </Navbar.Dropdown>
                         </Navbar.Item>
