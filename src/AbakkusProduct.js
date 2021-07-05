@@ -13,44 +13,7 @@ class AbakkusProduct extends Component {
 		this.state = {};
 	}
 
-	getTopTenStocks(abakkusProduct) {
-		if (Object.keys(abakkusProduct.top_10).length !== 0) {
-			return (
-				<Tile kind="parent" size={5}>
-					<Tile
-						renderAs="article"
-						kind="child"
-						notification
-						color="light"
-						style={{ boxShadow: "0px 1px 12px rgba(0,0,0,0.3)" }}
-					>
-						<div className="content">
-							<Heading>Top Ten</Heading>
-							<div className="content">
-								<Table bordered={true}>
-									<thead>
-										<tr>
-											<th>Stock Name</th>
-											<th>Percentage</th>
-										</tr>
-									</thead>
-									<tbody>
-										{Object.keys(abakkusProduct.top_10).map((key, index) => (
-											<tr>
-												<td>{key}</td>
-												<td>{abakkusProduct.top_10[key]}</td>
-											</tr>
-										))}
-									</tbody>
-								</Table>
-							</div>
-						</div>
-					</Tile>
-				</Tile>
-			);
-		}
-		return;
-	}
+	
 
 	render() {
 		const abakkusProduct = this.props.jsonObj;
